@@ -1,0 +1,25 @@
+Yonle Telnet Server
+===================
+
+A simple telnet server with following feature:
+
+- Posting with timeline.
+- Global chat.
+
+
+Running
+=======
+
+Just run "node index.js"
+
+Then point your telnet / netcat to yourhost.com port 3001, like this:
+  $ telnet yourhost.com 3001
+
+Or:
+  $ nc yourhost.com 3001
+
+Or:
+  $ ncat yourhost.com 3001
+
+Or:
+  $ netcat yourhost.com 3001 
